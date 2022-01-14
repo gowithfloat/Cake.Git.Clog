@@ -15,7 +15,7 @@ using System;
 // Parameters and arguments
 
 readonly string task = Argument("task", "Build");
-readonly string projectName = Argument("projectName", "Cake.Badge");
+readonly string projectName = Argument("projectName", "Cake.Git.Clog");
 readonly string configuration = Argument("configuration", "Debug");
 readonly Uri nugetUrl = Argument<Uri>("nugetUrl", null);
 readonly string nugetToken = Argument("nugetToken", string.Empty);
